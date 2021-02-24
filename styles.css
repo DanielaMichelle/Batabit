@@ -95,3 +95,180 @@ header img {
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.svg');
 }
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+main .main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container .backgroudImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/bitcoin.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #757575;
+}
+
+
+.main-tables-container .main-table {
+    display: grid;
+    width: 100%;
+    min-width: 320px;
+    margin-top: 30px;
+    grid-template-rows: 30px auto auto;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.main-tables-container .main-table--title {
+    grid-column-start: 2;
+    margin: 0;
+    margin-left: 10px;
+    justify-self: start;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-tables-container .currency-table--title {
+    color: #FF9536;
+    
+}
+
+.main-tables-container .commission-table--title {
+    color: var(--secondary-blue);
+}
+
+/* tabla */
+
+.main-tables-container .main-table--table {
+    width: 200px;
+    margin: 0 auto; 
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: repeat(2,1fr);  
+    background-color: var(--just-white);
+    border: 1px solid var(--off-white);
+    border-radius: 10px;
+}
+
+.main-table--table > div {
+    border-bottom: 2px solid var(--off-white);
+}
+
+
+.main-tables-container .currency-table--table .up {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/trending-up.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.main-tables-container .currency-table--table .down {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/trending-down.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.main-tables-container .table-right {
+    text-align: start;
+    padding: 12px;
+    border-right: solid 2px var(--off-white);
+}
+
+.main-tables-container .table-left {
+    text-align: center;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.main-tables-container .table-right {
+    color: #B5B0AC;
+    font-size: 1.2rem;
+}
+
+.main-tables-container .main-table--date {
+    grid-column-start: 2;
+    width: 173px;
+    border-radius: 9px;
+    margin: 12px auto;
+    padding: 5px;
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.main-tables-container .currency-table--date {
+    background-color: var(--soft-orange);
+}
+
+.main-tables-container .commission-table--date {
+    background-color: var(--soft-blue);
+}
+
+
+.main-table--arrow{
+    align-self: center;
+    justify-self: center;
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-tables-container .right {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-image: url('./assets/icons/right-arrow.svg');
+}
+
+.main-tables-container .left {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-image: url('./assets/icons/left-arrow.svg');
+}
