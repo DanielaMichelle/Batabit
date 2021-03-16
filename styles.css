@@ -476,22 +476,21 @@ main .main-exchange-container {
 }
 
 .plans-container-card  .plan-card--price {
-    position: relative;
     font-family: var(--secondary-font);
     font-weight: bold;
     line-height: 6.3rem;
     font-size: 5.2rem;
+    display: flex;
+    justify-content: center;
     color: black;
     letter-spacing: -4px;
 }
 
 .plans-container-card  .plan-card--price span {
-    position: absolute;
-    left: 63px;
-    top: 8px;
+    margin-right: 0.2rem;
     font-family: var(--secondary-font);
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     font-weight: 500;
     color: #363636;
 }
